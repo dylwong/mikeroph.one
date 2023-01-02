@@ -44,16 +44,16 @@ const BlogLayout = ({
       <NextSeo
         title={frontMatter.title}
         description={frontMatter.summary}
-        canonical={`https://mikeroph.one${router.asPath}`}
+        canonical={`https://devopsdylan.net${router.asPath}`}
         twitter={{
           cardType: 'summary_large_image',
           site: '@Mikerophone_',
         }}
         openGraph={{
           title: frontMatter.title,
-          site_name: 'Michael Hall',
+          site_name: 'Dylan Wong',
           description: frontMatter.summary,
-          url: `https://mikeroph.one${router.asPath}/`,
+          url: `https://devopsdylan.net${router.asPath}/`,
 
           type: 'article',
           article: {
@@ -61,7 +61,7 @@ const BlogLayout = ({
           },
           images: [
             {
-              url: `https://mikeroph.one${frontMatter.image}`,
+              url: `https://devopsdylan.net${frontMatter.image}`,
             },
           ],
         }}
@@ -146,7 +146,7 @@ const BlogLayout = ({
           <HStack justifyContent="flex-start" mr="auto" mt={5}>
             <EditIcon />
             <Link
-              href={`https://github.com/mah51/mikeroph.one/edit/main/src/data/blog/${frontMatter.slug}.mdx`}
+              href={`https://github.com/fruitbox12/mikeroph.one/edit/main/src/data/blog/${frontMatter.slug}.mdx`}
               passHref
             >
               <ChakraLink
