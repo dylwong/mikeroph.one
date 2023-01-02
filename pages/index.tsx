@@ -56,7 +56,7 @@ export default function Home(): React.ReactElement {
                 boxSize="250px"
                 src="./static/images/profile.jpeg"
                 objectFit="cover"
-                alt="Michael Hall"
+                alt="Dylan Wong"
                 onLoad={() => setImageLoad(true)}
               />
             </Skeleton>
