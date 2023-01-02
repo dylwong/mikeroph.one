@@ -52,15 +52,15 @@ export default function MyApp({
             },
           ],
         }}
-        description="The purpose of this site is for me to test things out & maybe show some things off."
+        description=""
       />
       <ChakraProvider theme={theme}>
         <PlausibleProvider
-          domain="mikeroph.one"
+          domain="devopsdylan.net"
           selfHosted
           trackOutboundLinks
           enabled={process.env.NODE_ENV === 'production'}
-          customDomain={'https://stats.mikeroph.one'}
+          customDomain={''}
         >
           <QueryClientProvider client={queryClient}>
             <MDXProvider components={MDXComponents}>
